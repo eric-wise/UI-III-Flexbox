@@ -64,3 +64,181 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+body {
+	margin: auto;
+	width: 876px;
+}
+
+.section1 nav {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:20px;
+}
+
+.section1 nav a {
+	font-size: 14px;	
+	text-decoration: none;	
+	color: lightgrey;
+	vertical-align: middle;	
+}
+
+.section1 nav a:hover {
+	text-decoration: underline;
+}
+
+.section2 {
+	display:flex;
+	justify-content: flex-end;	
+	margin-top: 20px;
+	align-items: center;
+	align-content: center;	
+}
+
+.box1 {	
+	vertical-align: top;
+	font-size: 77px;
+	margin-left: 30px;
+	text-align: center;
+}
+
+button {
+	background: white;
+  	vertical-align: top;
+  	margin-top: 6px;
+  	padding: 8px 44px;
+  	font-size: 17px;
+  	border: 1px solid black;
+  	cursor: pointer;
+}
+
+button:hover {
+	background: black;
+  	color: white;
+}
+
+h1 {
+	margin-bottom: 22px;
+}
+
+.section3 {
+	border-top: 1px solid black;
+  	margin-top: 76px;
+  	padding-top: 39px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.box2 {
+	width: 50%;
+	margin: 5px;	
+}
+
+.section4 {
+	display:flex;
+	justify-content: space-between;
+	margin-top: 37px;	
+}
+
+.box3 {
+	width: 32%;
+	margin: 5px;		
+}
+
+.middle-img {	
+	background-position: center;
+	margin-top: 45px;
+}
+
+.contact {	
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+}
+
+.contact p {
+	margin: 20px 0;
+}
+
+footer {
+	margin: 32px 0;	
+	text-align: center;
+	font-size: 14px;
+}
+
+/* Start of second page */
+
+h2 {
+	margin-top: 22px;
+	font-size: 22px;
+}
+
+.servicesSection2 {
+	margin-top: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;		
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+}
+
+.box2services {
+	width: 48%;
+	/* height: 400px; */
+	align-items: center;
+	padding: 20px 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: rgb(220, 219, 219);
+	border: 1px solid black;
+} 
+
+.box2services button {
+	margin-top: 15px;
+	border-radius: 6px;
+	width: 38%;
+	height: 17%;
+	/* vertical-align: top; */
+	font-size: 9px;
+	
+}
+
+.servicesSection3 {
+	display:flex;
+	justify-content: space-between;		
+	margin-top: 25px;
+	margin-bottom: 72px;		
+}
+
+.box3services  {
+	width: 48%;			
+}
+
+ul { 
+	list-style: square;
+	margin-top:20px; 	
+}
+
+li { 	
+	padding: 5px;
+	display: list-item;
+	margin-left: 1.2em;
+}
